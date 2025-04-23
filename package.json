@@ -1,0 +1,26 @@
+{
+  "name": "discord-ai-mod",
+  "version": "1.0.0",
+  "description": "Discord AI moderation bot using Groq API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Friday | Cortex Realm",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/friday2su/ai-moderation.git"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "groq-sdk": "^0.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+} 
